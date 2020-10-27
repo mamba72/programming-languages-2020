@@ -43,7 +43,8 @@ If you cannot download or build [bnfc as described here](https://github.com/alex
 - To **compile the interpreter** run (in the folder `Lab1-Lambda-Calculus/LambdaNat0`)
 
         cp grammar/*.hs src 
-            stack build
+        
+        stack build
 
     The first command copies bnfc-generated files such as the definition of the algebraic data type for abstract syntax. The second command builds the interpreter itself.
 
