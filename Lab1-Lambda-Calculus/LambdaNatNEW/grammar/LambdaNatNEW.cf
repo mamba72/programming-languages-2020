@@ -6,8 +6,9 @@ Prog.   Program ::= Exp ; -- this first line is redundant
 EAbs.   Exp1 ::= "\\" Id "." Exp ;  -- in effect: "\" Id "." Exp ; -- btw, pronounce "\" as "lambda" in this context
 EApp.   Exp2 ::= Exp2 Exp3 ; -- application associates on the left
 EVar.   Exp3 ::= Id ;
-ENatS.  Exp4 ::= "S" Exp5 ;
-ENatO.  Exp
+ENatS. Exp4 ::= "S" Exp5 ;
+ENatO. Exp5 ::= "O" ;
+
 
 coercions Exp 3 ;
 
